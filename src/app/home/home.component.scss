@@ -1,0 +1,23 @@
+@import '../../assets/styles/main.scss';
+
+// Search Section
+#search_container {
+    height: 32px;
+}
+// Dishes Grid Section
+
+.dish_link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dish_card {
+  max-width: 340px;
+  margin: 5px;
+}
+
+.dish_container {
+    box-sizing: border-box;
+}

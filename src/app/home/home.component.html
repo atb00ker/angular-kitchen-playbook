@@ -1,0 +1,42 @@
+<div class="container content">
+    <div id="search_container" class="row justify-content-center">
+        <div class="mt-4"></div>
+        <div class="col-12 col-md-10 col-lg-9">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="col-1">
+            <button class="flex_box" mat-button matPrefix mat-icon-button>
+                <mat-icon class='d-none d-md-block'>search</mat-icon>
+            </button>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="mt-5"></div>
+        <div class="dish_container col-lg-3 col-md-5 col-sm-6 col-xs-12" *ngFor="let dish of dishes">
+            <a class='dish_link' routerLink='/dish/{{dish.id}}'>
+                <mat-card class="dish_card">
+                    <img mat-card-image [src]="dish.image" alt="Image of the dish">
+                    <mat-card-header>
+                        <mat-card-title>{{ dish.name }}</mat-card-title>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <p> {{ dish.discription }} </p>
+                        <mat-divider [inset]="true"></mat-divider>
+                        <p> Ingredients:
+                            <span *ngFor="let ingredient of dish.ingredients; last as isLast">
+                                {{ ingredient.name }}<span *ngIf="!isLast">,</span>
+                            </span>
+                        </p>
+                        <p *ngIf="dish.optional_ingredients.length > 0"> Optional Ingredients:
+                            <span *ngFor="let op_ingredient of dish.optional_ingredients; last as isLast">
+                                {{ op_ingredient.name }}<span *ngIf="!isLast">,</span>
+                            </span>
+                        </p>
+                        <p> Apparatus: {{ dish.apparatus }} </p>
+                        <p> Tags: {{ dish.tags }} </p>
+                    </mat-card-content>
+                </mat-card>
+            </a>
+        </div>
+    </div>
+</div>

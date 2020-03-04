@@ -1,0 +1,29 @@
+@import '../../assets/styles/main.scss';
+
+#dish_media_frame {
+    overflow: hidden;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+th, td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mat-expansion-panel-header {
+    color: black! important;
+}
+
+#steps_btn_row {
+  padding: 0px! important;
+}
+
+.steps_btn {
+  margin-left: 0! important;
+  border-radius: 0px! important;
+}

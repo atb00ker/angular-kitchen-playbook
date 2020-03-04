@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "image": "https://www.indianbodybuilding.co.in/wp-content/uploads/2016/08/Omlete-Paleo-Recipe.jpg",
+        "video": "https://www.youtube.com/embed/YyJ3-1qpMq4",
+        "name": "Omlete",
+        "discription": "Simplest protein-rich breakfast.",
+        "ingredients": [
+            {
+                "name": "Egg",
+                "quantity": "1"
+            },
+            {
+                "name": "Ghee",
+                "quantity": "1 Tablespoon"
+            },
+            {
+                "name": "Salt",
+                "quantity": "1 Tablespoon"
+            }
+        ],
+        "optional_ingredients": [
+            {
+                "name": "Black pepper",
+                "quantity": "1 Tablespoon"
+            }
+        ],
+        "apparatus": [
+            "Pan"
+        ],
+        "tags": [
+            "Egg",
+            "Easy",
+            "Quick"
+        ],
+        "time": "10-15 Minutes",
+        "steps": [
+            {
+                "number": 1,
+                "title": "Prepare the frying Pan",
+                "description": "Start heating the pan and add ghee to it."
+            },
+            {
+                "number": 2,
+                "title": "Mash the Egg",
+                "description": "Break and mash the egg with the help of a fork."
+            },
+            {
+                "number": 3,
+                "title": "Mix the salts",
+                "description": "Mix the black pepper and salt in the batter."
+            },
+            {
+                "number": 4,
+                "title": "Cook the egg",
+                "description": "Put the batter on pan and wait for 2-3 minutes for it to be prepared."
+            },
+            {
+                "number": 5,
+                "title": "Serve",
+                "description": "Your dish is ready."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "image": "http://cheftimes.com/wp-content/uploads/2016/04/DSC_0420-900x500.jpg",
+        "video": null,
+        "name": "Rajma Chawal",
+        "discription": "Blah-blah for now",
+        "ingredients": [
+            {
+                "name": "Kidney Beans",
+                "quantity": "5 grams"
+            },
+            {
+                "name": "Rice",
+                "quantity": "10 grams"
+            }
+        ],
+        "optional_ingredients": [
+            {
+                "name": "Turmeric",
+                "quantity": "1 Tablespoon"
+            }
+        ],
+        "apparatus": [
+            "Pressure Cooker"
+        ],
+        "tags": [
+            "Healthy"
+        ],
+        "time": "30-35 Minutes",
+        "steps": []
+    }
+]
