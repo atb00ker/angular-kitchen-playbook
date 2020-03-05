@@ -1,0 +1,21 @@
+@import '~bootstrap/scss/bootstrap-grid';
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+@import '~material-design-icons/iconfont/material-icons.css';
+
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.row {
+    margin: unset;
+}
+
+.container {
+    width: initial;
+}
+
+.flex_box {
+    display: flex;
+    align-items: center;
+}
