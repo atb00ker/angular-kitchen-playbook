@@ -1,11 +1,11 @@
 @import '../../assets/styles/main.scss';
 
 // Search Section
-#search_container {
+.searchbar {
     height: 32px;
 }
-// Dishes Grid Section
 
+// Dishes Grid Section
 .dish_link {
     text-decoration: none;
     display: flex;
@@ -20,4 +20,14 @@
 
 .dish_container {
     box-sizing: border-box;
+}
+
+
+.screen_reader_only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
 }

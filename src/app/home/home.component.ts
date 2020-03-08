@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { ApiService } from '../api.service';
-import { Dish } from '../dish/dish.component'
-import * as backup_data from '../../assets/data/dishes.json';
+import { IDish } from '../app.interface';
 
 @Component({
   selector: 'app-home',
@@ -11,21 +10,13 @@ import * as backup_data from '../../assets/data/dishes.json';
 })
 export class HomeComponent {
 
-  dishes: Dish[]
+  dishes: IDish[]
 
   constructor(private api: ApiService) {
     this.getAllDishes()
   }
 
   getAllDishes = () => {
-    this.api.getAllDishes().subscribe(
-      data => {
-        this.dishes = data;
-      },
-      error => {
-        console.log(error);
-        this.dishes = backup_data['default'];
-      }
-    )
+    this.api.getAllDishes().subscribe(data => this.dishes = data)
   }
 }

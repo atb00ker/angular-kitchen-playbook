@@ -2,11 +2,16 @@
     <div id="search_container" class="row justify-content-center">
         <div class="mt-4"></div>
         <div class="col-12 col-md-10 col-lg-9">
-            <input type="text" placeholder="Search">
+            <label class="screen_reader_only" for="searchbar">Search by name, tag, ingredients, time or
+                apparatus"</label>
+        </div>
+        <div class="col-12 col-md-10 col-lg-9">
+            <input id="searchbar" class="searchbar" type="text"
+                placeholder="Search by name, tag, ingredients, time or apparatus">
         </div>
         <div class="col-1">
-            <button class="flex_box" mat-button matPrefix mat-icon-button>
-                <mat-icon class='d-none d-md-block'>search</mat-icon>
+            <button aria-hidden="true" class="searchbar flex_box" mat-button mat-icon-button>
+                <mat-icon aria-hidden="true" class='d-none d-md-block'>search</mat-icon>
             </button>
         </div>
     </div>

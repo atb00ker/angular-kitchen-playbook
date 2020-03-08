@@ -4,6 +4,8 @@ import { Component, NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+// Custom Pipe
+import { SafePipe } from './safe.pipe';
 // Components
 import { NavComponent } from './nav/nav.component';
 import { RoutedComponents } from './app-routing.module';
@@ -42,6 +44,7 @@ export class AppComponent {
     AppComponent,
     NavComponent,
     RoutedComponents,
+    SafePipe
   ],
   imports: [
     BrowserModule,
