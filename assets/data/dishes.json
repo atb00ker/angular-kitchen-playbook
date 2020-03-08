@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "https://www.indianbodybuilding.co.in/wp-content/uploads/2016/08/Omlete-Paleo-Recipe.jpg",
+        "image": "/assets/images/dishes/1.jpg",
         "video": "https://www.youtube.com/embed/YyJ3-1qpMq4",
         "name": "Omlete",
         "discription": "Simplest protein-rich breakfast.",
@@ -64,7 +64,7 @@
     },
     {
         "id": 2,
-        "image": "http://cheftimes.com/wp-content/uploads/2016/04/DSC_0420-900x500.jpg",
+        "image": "/assets/images/dishes/2.jpg",
         "video": null,
         "name": "Rajma Chawal",
         "discription": "Blah-blah for now",
